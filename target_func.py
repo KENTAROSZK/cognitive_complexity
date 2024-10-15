@@ -11,7 +11,7 @@ def func(x: int) -> str:
     return "x is negative or zero"
 
 
-if __name__ == "__main__": # このifも複雑度としてカウントされてしまう点はオリジナルの複雑度カウントのクラスでの難点
+if __name__ == "__main__":
     print(f"{func(x = 3)=}") # 奇数の時
     print(f"{func(x = 4)=}") # 4の時
     print(f"{func(x = 6)=}") # 偶数の時
